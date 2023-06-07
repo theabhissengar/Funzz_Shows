@@ -6,11 +6,9 @@ const Card = (props) => {
   return (
     <div>
         <article className="movie__item">
-        <Link to="/book">
           <div className="movie__item-image">
             <img src={props.image} alt="logo" />
           </div>
-          </Link>
           <h3>{props.name}</h3>
           <div className="movie__item-cta">
             <button className='btn btn-primary'>{props.language}</button>
