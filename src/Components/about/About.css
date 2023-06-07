@@ -5,7 +5,10 @@
 }
 
 #about{
-    margin-top: 6rem;
+    margin-top: 9rem;
+}
+#about h5{
+    font-size: 1.5rem;
 }
 
 .about__me{
