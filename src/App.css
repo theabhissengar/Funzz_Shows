@@ -143,6 +143,9 @@ img{
   margin: 0.8rem auto 0;
 }
 
+#view h5{
+  font-size: 1.4rem;
+}
 
 .movie__container{
   display: grid;
