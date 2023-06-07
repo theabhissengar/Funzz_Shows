@@ -6,7 +6,6 @@ const AppContext = React.createContext()
 
 const AppProvider = ({children}) =>{
 
-    const [isLoading, setIsLoading] = useState(true)
     const [movie, setMovie] = useState([])
 
     const getMovies= async(url) =>{
