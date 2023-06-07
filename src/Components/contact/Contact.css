@@ -5,6 +5,10 @@
     gap: 12rem;
 }
 
+#contact h5{
+    font-size: 1.4rem;
+}
+
 .contact__options{
     display: flex;
     flex-direction: column;
